@@ -1,4 +1,9 @@
 <style type="text/css">
+
+  a:link {
+    color: #5b5bb7;
+  }
+
   body {
     padding-top: 20px;
     padding-bottom: 60px;
@@ -82,38 +87,22 @@
     border-radius: 0 3px 3px 0;
   }
 
+  .navbar .nav > li > a:focus,
+  .navbar .nav > li > a:hover {
+    color: #5b5bb7;
+    text-decoration: none;
+    background-color: transparent;
+  }
 
-  /* Customizing heder */ 
-  .btn-success {
-  color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb75b;
-  *background-color: #51a351;
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
-  background-repeat: repeat-x;
-  border-color: #51a351 #51a351 #387038;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
+  .navbar .nav > .active > a,
+  .navbar .nav > .active > a:hover,
+  .navbar .nav > .active > a:focus {
+    color: #333333;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+            box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  }
 
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.btn-success.disabled,
-.btn-success[disabled] {
-  color: #ffffff;
-  background-color: #51a351;
-  *background-color: #499249;
-}
-
-.btn-success:active,
-.btn-success.active {
-  background-color: #408140 \9;
-}
 </style>
