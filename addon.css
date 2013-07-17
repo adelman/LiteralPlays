@@ -5,7 +5,6 @@
   }
 
   body {
-    padding-top: 20px;
     padding-bottom: 60px;
   }
 
@@ -89,7 +88,7 @@
 
   .navbar .nav > li > a:focus,
   .navbar .nav > li > a:hover {
-    color: #5b5bb7;
+    color: #f6e41c;
     text-decoration: none;
     background-color: transparent;
   }
